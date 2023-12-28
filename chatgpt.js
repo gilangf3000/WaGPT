@@ -2,7 +2,7 @@ const axios = require('axios');
 const OpenAI = require('openai');
 const fs = require('fs');
 const path = require('path');
-const openai = new OpenAI({ apiKey: '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' });
+const openai = new OpenAI({ apiKey: 'YourKey' });
 
 async function ChatGPT(userInput) {
   const conversationFilePath = path.join(__dirname, 'conversation.json');
